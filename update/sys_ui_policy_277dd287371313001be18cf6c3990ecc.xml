@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_244551_dxcapp_approval_request">sub_category=8e1e1f3b374313001be18cf6c3990ebb^EQ<item display_table="x_244551_dxcapp_sub_category" display_value="Other" endquery="false" field="sub_category" goto="false" newquery="false" operator="=" or="false" value="8e1e1f3b374313001be18cf6c3990ebb"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setMandatory('please_specify',false);
+	g_form.setDisplay('please_specify',false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setMandatory('please_specify',true);
+	g_form.setDisplay('please_specify',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>show field Please Specify if sub category is other</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-19 07:05:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>277dd287371313001be18cf6c3990ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>show field Please Specify if sub category is other</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DXC Docs Approval" source="x_244551_dxcapp">0040c042370313001be18cf6c3990ec2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC Docs Approval">0040c042370313001be18cf6c3990ec2</sys_scope>
+        <sys_update_name>sys_ui_policy_277dd287371313001be18cf6c3990ecc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-19 07:05:52</sys_updated_on>
+        <table>x_244551_dxcapp_approval_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

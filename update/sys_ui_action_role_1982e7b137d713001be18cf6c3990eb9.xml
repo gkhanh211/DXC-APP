@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-15 14:48:14</sys_created_on>
+        <sys_id>1982e7b137d713001be18cf6c3990eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recall.x_244551_dxcapp.DXC Admin</sys_name>
+        <sys_package display_value="DXC Docs Approval" source="x_244551_dxcapp">0040c042370313001be18cf6c3990ec2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC Docs Approval">0040c042370313001be18cf6c3990ec2</sys_scope>
+        <sys_ui_action display_value="Recall">7ddbe3b3378313001be18cf6c3990e6c</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_1982e7b137d713001be18cf6c3990eb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-15 14:48:14</sys_updated_on>
+        <sys_user_role display_value="x_244551_dxcapp.DXC Admin" name="x_244551_dxcapp.DXC Admin">b7718406370313001be18cf6c3990ef3</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_244551_dxcapp.DXC_GetLBU</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DXC_GetLBU</name>
+        <script><![CDATA[var DXC_GetLBU = Class.create();
+DXC_GetLBU.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+    GetLBU: function() {
+		var user_id=this.getParameter('sysparm_userID');
+		var User=new GlideRecord('sys_user');
+		if(User.get(user_id)){
+			var country= User.location.country;
+			var lbu=new GlideRecord('x_244551_dxcapp_local_business_unit');
+			lbu.addQuery('name',country);
+			lbu.query();
+			if(lbu.next()){
+				return lbu.name;
+			}else{
+				var lbu1=new GlideRecord('x_244551_dxcapp_local_business_unit');
+				lbu1.addQuery('name','DXC Viet Nam');
+				lbu1.query();
+				lbu1.next();
+				return lbu1.sys_id;
+			}
+			
+		}
+		
+			
+    },
+    type: 'DXC_GetLBU'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-20 06:52:26</sys_created_on>
+        <sys_id>46a0a31337d313001be18cf6c3990ea0</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>DXC_GetLBU</sys_name>
+        <sys_package display_value="DXC Docs Approval" source="x_244551_dxcapp">0040c042370313001be18cf6c3990ec2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DXC Docs Approval">0040c042370313001be18cf6c3990ec2</sys_scope>
+        <sys_update_name>sys_script_include_46a0a31337d313001be18cf6c3990ea0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-20 07:13:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

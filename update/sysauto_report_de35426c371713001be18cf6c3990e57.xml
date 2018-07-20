@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list>c672c446370313001be18cf6c3990e31,25828c06370313001be18cf6c3990e40,e0724446370313001be18cf6c3990e0d</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled Execution of Monthly </name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="DXC - Report request in month">0b9729e037d313001be18cf6c3990edc</report>
+        <report_body><![CDATA[<p style="margin: 0in 0in 6.75pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: #343d47;">Dear User &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style="margin: 0in 0in 6.75pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: #343d47;">Please find the attached for monthly&nbsp;DXC status report</span></p>
+<p style="margin: 0in 0in 6.75pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: #343d47;">Regards,</span></p>
+<p style="margin: 0in 0in 6.75pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: #343d47;">Application Administrator<br /> DXC VietNam</span></p>
+<p style="margin: 0in 0in 6.75pt; font-size: 12pt; font-family: 'Times New Roman', serif;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: #343d47;">This is an automatic system generated email. Please do not reply to this email.</span></p>]]></report_body>
+        <report_title>Monthly DXC Status Report</report_title>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-11 10:48:05</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>monthly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-11 10:54:02</sys_created_on>
+        <sys_id>de35426c371713001be18cf6c3990e57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Execution of Monthly </sys_name>
+        <sys_package display_value="DXC Docs Approval" source="x_244551_dxcapp">0040c042370313001be18cf6c3990ec2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DXC Docs Approval">0040c042370313001be18cf6c3990ec2</sys_scope>
+        <sys_update_name>sysauto_report_de35426c371713001be18cf6c3990e57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-11 10:54:02</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
